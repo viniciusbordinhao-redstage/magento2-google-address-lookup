@@ -167,7 +167,7 @@ class LayoutProcessor implements LayoutProcessorInterface
      *
      * @return array
      */
-    protected function copyRegionLayoutFromShippingAddress(array $payment, string $fieldName): array
+    protected function copyRegionLayoutFromShippingAddress(array $payment, string $fieldName)
     {
         $region = $this->addressFields['children']['region'];
         $payment['children']['form-fields']['children'][$fieldName] = $region;

@@ -21,10 +21,10 @@ interface AutocompleteConfigResolverInterface
     /**
      * @return bool
      */
-    public function getIsEnabled(): bool;
+    public function getIsEnabled();
 
     /**
      * @return string
      */
-    public function getApiKey(): string;
+    public function getApiKey();
 }

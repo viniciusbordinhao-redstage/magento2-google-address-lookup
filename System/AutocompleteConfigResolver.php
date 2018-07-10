@@ -32,7 +32,7 @@ class AutocompleteConfigResolver implements AutocompleteConfigResolverInterface
     /**
      * @return bool
      */
-    public function getIsEnabled(): bool
+    public function getIsEnabled()
     {
         return $this->scopeConfig->getValue(self::PATH_IS_ENABLED);
     }
@@ -40,7 +40,7 @@ class AutocompleteConfigResolver implements AutocompleteConfigResolverInterface
     /**
      * @return string
      */
-    public function getApiKey(): string
+    public function getApiKey()
     {
         return $this->scopeConfig->getValue(self::PATH_API_KEY);
     }
